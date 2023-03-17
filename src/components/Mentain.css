@@ -4,6 +4,12 @@
 h1{
     text-align: center;
     color: white;
+    margin-top: 4rem;
+}
+
+h2 {
+    text-align: center;
+    color: white; 
 }
 
 .flex-word{
@@ -53,5 +59,7 @@ button:hover {
 
     p{
         text-align: left;
+        width: 75%;
+        
     }
 }

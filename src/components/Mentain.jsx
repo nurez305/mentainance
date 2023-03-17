@@ -6,7 +6,7 @@ function Mentain() {
   return (
     <div className='container'>
         <h1>Nurez's <span className='blog-name'>Blog</span></h1>
-        <h1>COMING SOON</h1>
+        <h2>COMING SOON</h2>
         <div className='flex-word'>
         <div>
         <p>My blog website is under construction and should be released within a very short period of time. I am preparing something amazing and exciting for you. The blog website will be based on teaching programming language with best practices for beginners.</p>
