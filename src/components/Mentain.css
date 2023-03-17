@@ -1,0 +1,57 @@
+.blog-name {
+    color: rgb(35, 217, 35);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.flex-word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    text-transform: capitalize;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 2;
+    color: white;
+    font-size: 17px;
+}
+
+img {
+    width: 35%;
+    margin-bottom: 2rem;
+}
+
+a button {
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(92, 87, 62);
+    font-size: 16px;
+    color: white;
+    
+}
+
+button:hover {
+    background-color: rgb(173, 150, 150);
+}
+
+@media screen and (max-width : 600px) {
+    img {
+        width: 80%;
+    }
+
+    p{
+        text-align: left;
+    }
+}
